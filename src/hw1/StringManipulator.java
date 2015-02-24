@@ -3,8 +3,10 @@ package hw1;
 /**
  * Homework:String Manipulator.
  *
- * @author <a href="mailto:youremail@mail.citytech.cuny.edu">Your Name</a>.
+ * @author <a href="mailto:winnie.wu@mail.citytech.cuny.edu">Winnie Wu</a>.
  */
+import java.util.Scanner;
+
 public class StringManipulator {
 
     /**
@@ -20,5 +22,24 @@ public class StringManipulator {
          The name of the city in all lowercase letters
          The first character in the name of the city
          */
+        
+        
+        System.out.println("Please enter the name of your favorite city: ");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+
+        int stringSize = input.length();
+        String upper = input.toUpperCase();
+        String lower = input.toLowerCase();
+        char letter = input.charAt(0);
+
+        System.out.println(input + " has " + stringSize + " characters.");
+        System.out.println(input + " in all uppercase letters: " + upper);
+        System.out.println(input + " in all lowercase letters: " + lower);
+        System.out.println("The first character in " + input + " is " + letter + ".");
+        
+        
+        
+        
     }
 }
