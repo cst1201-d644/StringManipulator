@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Homework:String Manipulator.
  *
- * @author <a href="mailto:youremail@mail.citytech.cuny.edu">Your Name</a>.
+ * @author <a href="mailto:Francisco.Latacela@mail.citytech.cuny.edu">Francisco Latacela</a>.
  */
 public class StringManipulator {
 
