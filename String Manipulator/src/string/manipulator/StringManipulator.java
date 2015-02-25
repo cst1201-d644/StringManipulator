@@ -19,13 +19,11 @@ public class StringManipulator {
      */
     public static void main(String[] args) {
         // Create a Scanner object for keyboard input.
-    Scanner keyboard = new Scanner(System.in);
+    Scanner inputScanner = new Scanner(System.in);
 
     System.out.print("Enter the name of your favorite city: ");
     
-    String city = keyboard.nextLine();
-
-    keyboard.close();
+    String city = inputScanner.nextLine();
 
     System.out.println("Number of characters: " + city.length());
 
