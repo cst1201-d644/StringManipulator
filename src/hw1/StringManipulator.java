@@ -1,9 +1,11 @@
 package hw1;
 
+import java.util.Scanner;
+
 /**
  * Homework:String Manipulator.
  *
- * @author <a href="mailto:youremail@mail.citytech.cuny.edu">Your Name</a>.
+ * @author <a href="mailto:Evan.Chin@mail.citytech.cuny.edu">Evan Chin</a>.
  */
 public class StringManipulator {
 
@@ -20,5 +22,21 @@ public class StringManipulator {
          The name of the city in all lowercase letters
          The first character in the name of the city
          */
+
+        String city;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What is your favorite city?");
+        city = scanner.nextLine();
+
+        String upper = city.toUpperCase();
+        String lower = city.toLowerCase();
+        char letter = city.charAt(2);
+        int stringSize = city.length();
+        System.out.println(city + " has " + stringSize + " letters.");
+        System.out.println(city.toUpperCase());
+        System.out.println(city.toLowerCase());
+        System.out.println(city.charAt(0));
+
     }
 }
