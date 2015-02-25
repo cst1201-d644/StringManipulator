@@ -14,7 +14,7 @@ public class StringManipulator {
      * program.
      * @param args
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         /*
          Write a program that asks the user to enter the name of his or her favorite city. 
          Use a String variable to store the input. The program should display the following:
