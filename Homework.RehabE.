@@ -1,0 +1,31 @@
+
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author rehabahmed
+ */
+public class JavaApplication1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      Scanner keyboard = new Scanner ( System.in);
+    
+      System.out.print("Enter the name of you favorite city: ");
+      String city = keyboard.nextLine();
+      keyboard.close(); 
+      
+      System.out.println("Number of character: " + city.length());
+      System.out.println(city.toUpperCase());
+      System.out.println(city.toLowerCase());
+      System.out.println(city.charAt(0));
+    
+    }
+}
