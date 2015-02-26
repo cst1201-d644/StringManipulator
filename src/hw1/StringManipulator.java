@@ -24,14 +24,14 @@ public class StringManipulator {
          Scanner sc = new Scanner(System.in);
 
         String in = sc.nextLine();
-        String Upper = in.toUpperCase();// all uppercase
-        String Lower = in.toLowerCase();// all Lowercase
-        int size = in.length();// Number of characters
-        char inital = Upper.charAt(0);// First Characters
+        String Upper = in.toUpperCase();
+        String Lower = in.toLowerCase();
+        int numberofletter = in.length();
+        char Firstword = Upper.charAt(0);
 
-        System.out.println(size);
+        System.out.println(numberofletter);
         System.out.println(Upper);
         System.out.println(Lower);
-        System.out.println(inital);
+        System.out.println(Firstword);
     }
 }
