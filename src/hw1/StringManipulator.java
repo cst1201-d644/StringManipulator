@@ -1,5 +1,7 @@
 package hw1;
 
+import java.util.Scanner;
+
 /**
  * Homework:String Manipulator.
  *
