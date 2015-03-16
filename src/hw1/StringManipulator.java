@@ -12,13 +12,16 @@ public class StringManipulator {
      * program.
      */
     public static void main(String[] args) {
-        /*
-         Write a program that asks the user to enter the name of his or her favorite city. 
-         Use a String variable to store the input. The program should display the following:
-         The number of characters in the city name
-         The name of the city in all uppercase letters
-         The name of the city in all lowercase letters
-         The first character in the name of the city
-         */
+         System.out.print("Enter the name of your favorite city: ");
+   String city = keyboard.nextLine();
+    keyboard.close();
+  
+    System.out.println("Number of characters: " + city.length());
+
+    System.out.println(city.toUpperCase());
+
+    System.out.println(city.toLowerCase());
+
+    System.out.println(city.charAt(0)); 
     }
 }
